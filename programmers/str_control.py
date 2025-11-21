@@ -23,7 +23,7 @@ def solution(code):
     for idx, word in enumerate(code):
         # 1을 만날 때 모드 변경
         if word == "1":
-            mode = 1 - mode  # 모드 토글
+            mode = 1 - mode  # 모드 변경
             continue
         
         # 각 모드에 따른 문자열 분류
