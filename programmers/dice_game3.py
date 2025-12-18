@@ -20,7 +20,6 @@ def solution(a, b):
     # a와 b 모두 홀수가 아닐 때
     else:
         return abs(a-b)
-    
 
 print(solution(3, 5))
 print(solution(6, 1))
